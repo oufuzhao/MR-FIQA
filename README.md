@@ -107,7 +107,7 @@ $ python Stage-2/sampling_annotation.py
 ## 🎯 Leaderboard for FIQA Models
 ####
 The Leaderboard of different FIQA models trained on real (CASIA-WebFace) and synthetic (Syn.) datasets for average pAUC (↓) under various False Match Rates (FMRs) is reported in the following. These models are trained via [CR-FIQA](https://github.com/fdbtrs/CR-FIQA). You can also download the explicit checkpoint via the URL in the table below.
-|  Models | Generator | Type | 1E-2 |  1E-3 | 1E-4  |                            URL                              |
+|  Models | Generator | Type | FMR=1E-2 | FMR=1E-3 | FMR=1E-4 |                            URL                              |
 | :-----------: | :-----------: | :-----------: | :----: | :---: | :---: | :----------------------------------------------------------: |
 |  CASIA-WebFace |  - |  Real  |  0.719  | 0.701 | 0.718 | [Google](https://drive.google.com/file/d/1NJlPGQeORIh5JuRwPzFyJtVKIDPT0dwR/view?usp=drive_link) |
 |  DigiFace-1M |  Digital Rendering |  Syn. |  0.764  | 0.801 | 0.810| [Google](https://drive.google.com/file/d/1zL_oNbQdpD3O5_E7iGXFRddS5kfIopEz/view?usp=drive_link) |
