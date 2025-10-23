@@ -107,20 +107,18 @@ $ python Stage-2/sampling_annotation.py
 ## 🎯 Leaderboard for FIQA Models
 ####
 The Leaderboard of different FIQA models trained on real (CASIA-WebFace) and synthetic (Syn.) datasets for average pAUC (↓) under various False Match Rates (FMRs) is reported in the following. These models are trained via [CR-FIQA](https://github.com/fdbtrs/CR-FIQA). You can also download the explicit checkpoint via the URL in the table below.
-
-|   Models  | Data Generation | Data Type  | FMR=1E-2 |  FMR=1E-3 | FMR=1E-4  |                            URL                              |
+|  Models | Generator | Type | 1E-2 |  1E-3 | 1E-4  |                            URL                              |
 | :-----------: | :-----------: | :-----------: | :----: | :---: | :---: | :----------------------------------------------------------: |
-|  CASIA-WebFace |  - |  Real  |  0.719  | 0.701 | 0.718 | [Google Disk](https://drive.google.com/file/d/1NJlPGQeORIh5JuRwPzFyJtVKIDPT0dwR/view?usp=drive_link) |
-|  DigiFace-1M |  Digital rendering |  Syn. |  0.764  | 0.801 | 0.810| [Google Disk](https://drive.google.com/file/d/1zL_oNbQdpD3O5_E7iGXFRddS5kfIopEz/view?usp=drive_link) |
-|  DCFace |  Diffusion–Based |  Syn.  |  0.833  | 0.813 | 0.819 | [Google Disk](https://drive.google.com/file/d/1zQihIj_3GUomJKdvYWH8xpz3MZ3xKDC1/view?usp=drive_link) |
-|  SFace2 |  GAN-Based |  Syn.   |  0.838  | 0.837 | 0.838 | [Google Disk](https://drive.google.com/file/d/11IVcp6aBQeOR-nU7Wz3UkSpFf-4r-Mhm/view?usp=drive_link) |
-|  HSFace-10K |  GAN-Based |  Syn.   |  0.894  | 0.869 | 0.859 | [Google Disk](https://drive.google.com/file/d/18jCvQ9UN7R3QAFqSf33u9kgx3vLWr8bp/view?usp=drive_link) |
-|  IDiff-Face |  Diffusion–Based |  Syn.   |  0.873  | 0.873 | 0.846 | [Google Disk](https://drive.google.com/file/d/1DRPmQRVW-pAaJ71fG62QVCMomA8rgVrz/view?usp=drive_link) |
-|  GANDiffFace |  GAN-Diffusion–Based |  Syn.   |  0.838  | 0.830 | 0.828 | [Google Disk](https://drive.google.com/file/d/1_STQPihDlN8DViH3qnqwdIWqOkFpDwiA/view?usp=drive_link) |
-|  SynFIQA (Ours) |  Diffusion–Based |  Syn.   |  0.797  | 0.800 | 0.787 | [Google Disk](https://drive.google.com/file/d/1VGH7RSrEkxREB5NFM-dcqAAdDY45LhE2/view?usp=drive_link) |
-|  SynFIQA++ (Ours) |  Diffusion–Based |  Syn.   |  0.748  | 0.730 | 0.742 | [Google Disk](https://drive.google.com/file/d/1l9z9tjBZkgr_-QCLnawx9aEmJnW9cJwZ/view?usp=drive_link) |
-|  SynFIQA + CASIA (Ours) |  - |  Real + Syn.  |  0.715  | 0.652 | 0.644 | [Google Disk](https://drive.google.com/file/d/1URGG2K5jL4xiuR57Z--zuRy3M6R7F9jn/view?usp=drive_link) |
-
+|  CASIA-WebFace |  - |  Real  |  0.719  | 0.701 | 0.718 | [Google](https://drive.google.com/file/d/1NJlPGQeORIh5JuRwPzFyJtVKIDPT0dwR/view?usp=drive_link) |
+|  DigiFace-1M |  Digital Rendering |  Syn. |  0.764  | 0.801 | 0.810| [Google](https://drive.google.com/file/d/1zL_oNbQdpD3O5_E7iGXFRddS5kfIopEz/view?usp=drive_link) |
+|  DCFace |  Diffusion–Based |  Syn.  |  0.833  | 0.813 | 0.819 | [Google](https://drive.google.com/file/d/1zQihIj_3GUomJKdvYWH8xpz3MZ3xKDC1/view?usp=drive_link) |
+|  SFace2 |  GAN-Based |  Syn.   |  0.838  | 0.837 | 0.838 | [Google](https://drive.google.com/file/d/11IVcp6aBQeOR-nU7Wz3UkSpFf-4r-Mhm/view?usp=drive_link) |
+|  HSFace-10K |  GAN-Based |  Syn.   |  0.894  | 0.869 | 0.859 | [Google](https://drive.google.com/file/d/18jCvQ9UN7R3QAFqSf33u9kgx3vLWr8bp/view?usp=drive_link) |
+|  IDiff-Face |  Diffusion–Based |  Syn.   |  0.873  | 0.873 | 0.846 | [Google](https://drive.google.com/file/d/1DRPmQRVW-pAaJ71fG62QVCMomA8rgVrz/view?usp=drive_link) |
+|  GANDiffFace |  GAN-Diffusion–Based |  Syn.   |  0.838  | 0.830 | 0.828 | [Google](https://drive.google.com/file/d/1_STQPihDlN8DViH3qnqwdIWqOkFpDwiA/view?usp=drive_link) |
+|  SynFIQA (Ours) |  Diffusion–Based |  Syn.   |  0.797  | 0.800 | 0.787 | [Google](https://drive.google.com/file/d/1VGH7RSrEkxREB5NFM-dcqAAdDY45LhE2/view?usp=drive_link) |
+|  SynFIQA++ (Ours) |  Diffusion–Based |  Syn.   |  0.748  | 0.730 | 0.742 | [Google](https://drive.google.com/file/d/1l9z9tjBZkgr_-QCLnawx9aEmJnW9cJwZ/view?usp=drive_link) |
+|  SynFIQA + CASIA (Ours) |  - |  Real + Syn.  |  0.715  | 0.652 | 0.644 | [Google](https://drive.google.com/file/d/1URGG2K5jL4xiuR57Z--zuRy3M6R7F9jn/view?usp=drive_link) |
 
 ## 🚀 FIQA Inference
 ####
