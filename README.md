@@ -61,7 +61,7 @@ $ pip install fairscale==0.4.4 pycocoevalcap scipy==1.10.1
 $ python Stage-1/generate-pseudo-ID.py
 ```
 
-#### 🕵🏻 2. Data Filtering for High-Quality Pseudo-ID Images
+#### 🗃️ 2. Data Filtering for High-Quality Pseudo-ID Images
 - To ensure high-quality pseudo identities, the generated images will be filtered as required to eliminate samples that do not meet the requirements. 
 - Download the [ZIP-File](https://drive.google.com/file/d/1XaYY8MZBGMYOfFKI6-gwzOtgzS_ecGqp/view?usp=sharing) containing the models required for data filtering, and unzip it to `Pretrained-Models/`. Herein, it is worth mentioning that `Retinaface_Resnet50.pth` and `Pose-LP.pth` will also be used in the following <font color='seagreen'> **Quality-Controlled Generation**</font>.
 - If you modify <font color='tomato'> *<save_dir>* </font> in the previous unconditional generation, please modify the <font color='tomato'> <*data_path*> </font> in `Stage-1/data_filtering.py` simultaneously.
@@ -69,7 +69,7 @@ $ python Stage-1/generate-pseudo-ID.py
 $ python Stage-1/data_filtering.py
 ```
 
-#### 🗃️ 3. Quality-Controlled Generation (*Stage-2*)
+#### 🕵🏻 3. Quality-Controlled Generation (*Stage-2*)
 - Download the [DECA-Stage2-Models-File.zip](https://drive.google.com/file/d/1k0ddZPe2qXJAtsLfQ-lALRQWbtwUVDGU/view?usp=sharing) (10.48GB) and unzip the data and models to `Pretrained-Models/`. 
 - The default <font color='tomato'> *<args.id_data_path>* </font> refers to <font color='tomato'> *<data_path>* </font> in <font color='seagreen'> **Data Filtering** </font> of Stage-1. If you modify the path during Stage-1, please make the corresponding changes in `Stage-2/conditional_sampling.py`. You can also modify the saving path of generated samples <font color='tomato'> *<args.save_path>*</font>.
 - The generated dataset is divided into sub-files based on the ID. Each sub-folder contains reference and degraded samples. Among them, the reference samples are labeled as `Ref-??.jpg`, while the degraded samples are `?.jpg`. 
