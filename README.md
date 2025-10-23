@@ -7,7 +7,7 @@
 
 # MR-FIQA: Face Image Quality Assessment with Multi-Reference Representations from Synthetic Data Generation
 
-<a href='https://'><img src='https://img.shields.io/badge/Paper-ICCV-red'></a> &nbsp; &nbsp; <a href='https://'><img src='https://img.shields.io/badge/Supp.-Materials-green'></a> &nbsp; &nbsp; <a href='https://'><img src='https://img.shields.io/badge/Dataset-Download-blue'></a> &nbsp; &nbsp; <a href='[https://](https://github.com/oufuzhao/MR-FIQA/tree/main?tab=readme-ov-file#-leaderboard-for-fiqa-models)'><img src='https://img.shields.io/badge/Model-Leaderboard-orange'></a>  
+<a href='https://'><img src='https://img.shields.io/badge/Paper-ICCV-red'></a> &nbsp; &nbsp; <a href='https://'><img src='https://img.shields.io/badge/Supp.-Materials-green'></a> &nbsp; &nbsp; <a href='https://'><img src='https://img.shields.io/badge/Dataset-Download-blue'></a> &nbsp; &nbsp; <a href='https://github.com/oufuzhao/MR-FIQA?tab=readme-ov-file#-leaderboard-for-fiqa-models'><img src='https://img.shields.io/badge/Model-Leaderboard-orange'></a>  
 *The link will be available soon*
 
 </td>
