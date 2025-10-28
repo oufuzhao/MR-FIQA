@@ -134,6 +134,7 @@ Please kindly cite the following paper if you find our work helpful. Thank you s
     author    = {Ou, Fu-Zhao and Li, Chongyi and Wang, Shiqi and Kwong, Sam},
     title     = {MR-FIQA: Face Image Quality Assessment with Multi-Reference Representations from Synthetic Data Generation},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    pages     = {12915-12925},
     year      = {2025}
 }
 ```
