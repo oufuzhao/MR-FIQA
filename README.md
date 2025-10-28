@@ -7,8 +7,7 @@
 
 # MR-FIQA: Face Image Quality Assessment with Multi-Reference Representations from Synthetic Data Generation
 
-<a href='https://'><img src='https://img.shields.io/badge/Paper-ICCV-red'></a> &nbsp; &nbsp; <a href='https://'><img src='https://img.shields.io/badge/Supp.-Materials-green'></a> &nbsp; &nbsp; <a href='https://'><img src='https://img.shields.io/badge/Dataset-Download-blue'></a> &nbsp; &nbsp; <a href='https://github.com/oufuzhao/MR-FIQA?tab=readme-ov-file#-leaderboard-for-fiqa-models'><img src='https://img.shields.io/badge/Model-Leaderboard-orange'></a>  
-*The link will be available soon*
+<a href='https://openaccess.thecvf.com/content/ICCV2025/papers/Ou_MR-FIQA_Face_Image_Quality_Assessment_with_Multi-Reference_Representations_from_Synthetic_ICCV_2025_paper.pdf'><img src='https://img.shields.io/badge/Paper-ICCV-red'></a> &nbsp; &nbsp; <a href='https://openaccess.thecvf.com/content/ICCV2025/supplemental/Ou_MR-FIQA_Face_Image_ICCV_2025_supplemental.pdf'><img src='https://img.shields.io/badge/Supp.-Materials-green'></a> &nbsp; &nbsp; <a href='https://drive.google.com/file/d/1JVckctGZC9CP9MSmQfN9kie2xmYCdHns/view?usp=drive_link'><img src='https://img.shields.io/badge/Dataset-Download-blue'></a> &nbsp; &nbsp; <a href='https://github.com/oufuzhao/MR-FIQA?tab=readme-ov-file#-leaderboard-for-fiqa-models'><img src='https://img.shields.io/badge/Model-Leaderboard-orange'></a>
 
 </td>
 </tr>
@@ -80,8 +79,8 @@ $ python Stage-2/sampling_annotation.py
 
 #### 🏷 4. Quality Annotation
 - After the samples are generated, quality annotation will be performed. The quality scores of generated data will be output to <font color='tomato'> *<args.save_path>/Quality-Scores.txt* </font>
-
-- In summary, the generated dataset is organized as:
+- The generated dataset [SynFIQA.zip](https://drive.google.com/file/d/1JVckctGZC9CP9MSmQfN9kie2xmYCdHns/view?usp=drive_link) (1.6GB) is availabel for download, where the data has been cropped and aligned to 112x112.
+- In summary, the dataset is organized as:
 ```
 ──────────────────────────────────────────
 |── data                                                           
